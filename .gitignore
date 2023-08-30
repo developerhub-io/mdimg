@@ -1,0 +1,4 @@
+.DS_Store
+bin
+downloaded_images
+node_modules

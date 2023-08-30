@@ -1,0 +1,17 @@
+{
+  "name": "mdimg",
+  "version": "1.0.0",
+  "description": "Downloads all images from markdown files inside a path",
+  "main": "index.js",
+  "dependencies": {
+    "got": "^11.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js --output bin/mdimg",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
