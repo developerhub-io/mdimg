@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "build": "pkg index.js --output bin/mdimg",
+    "build": "pkg index.js --output bin/mdimg --targets node14-darwin-x64,node14-linux-x64",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
